@@ -6,17 +6,14 @@ Meryの文章読み上げマクロ
 
 ## セットアップ
 
-1. Meryを入手する
+1. [Mery](https://www.haijin-boys.com/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8)を入手する
 
-https://www.haijin-boys.com/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8
-
-2. SofTalkをインストールする
-
-https://w.atwiki.jp/softalk/pages/15.html
+2. [SofTalk](https://w.atwiki.jp/softalk/pages/15.html)をインストールする
 
 3. readBySofTalkをダウンロードする
 
 保存場所はどこでも良い
+
 こだわりがなければ`Mery/Macros`フォルダに保存
 
 4. マクロ読み込み
