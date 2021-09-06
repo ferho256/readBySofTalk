@@ -16,7 +16,7 @@ Meryの文章読み上げマクロ
 
 4. readBySofTalk.jsのpathToSofTalkを設定する
 
-readBySofTalk.jsを適当なエディタで開き、9行目付近の`pathToSofTalk`に先程入手した`softalk.exe`のフルパスを入力する
+    readBySofTalk.jsを適当なエディタで開き、9行目付近の`pathToSofTalk`に先程入手した`softalk.exe`のフルパスを入力する
 
 5. マクロ読み込み
 
