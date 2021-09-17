@@ -8,10 +8,20 @@
 // SofTalk.exeのフルパスを指定
 const pathToSofTalk = "D://softalk//softalk.exe";
 
-// エディタ上で文字列が選択されていない場合は全文を選択する
-if (Document.Selection.IsEmpty){
-  document.selection.StartOfLine(false, mePosLogical);
-  document.selection.EndOfLine(true, mePosLogical);
+/* エディタ上で文字列を選択していないときの挙動
+ * true : カーソルのある行のみ読む
+ * false : 文章全体を読む
+ */
+let readLineWithCursor = false;
+
+if (Document.Selection.IsEmpty) {
+  if (readLineWithCursor) {
+    document.selection.StartOfLine(false);
+    document.selection.EndOfLine(true);
+  } else {
+    document.selection.StartOfDocument(false);
+    document.selection.EndOfDocument(true);
+  }
 }
 
 let selectedText = Document.Selection.Text;
